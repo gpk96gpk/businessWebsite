@@ -1,0 +1,66 @@
+/*Nav Bar*/
+nav {
+	width: 120%;
+	list-style-type: none;
+	background-color: #242424;
+	list-style-type: none;
+ 	margin: -30px 0 0 -20px;
+  	padding: 0;
+	position: absolute;
+	text-align: center;
+}
+nav > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: block;
+  background: #ddd;
+}
+nav > ul > li {
+  background-color: #242424;
+  overflow: hidden;
+  float: left;
+  width: 150px;
+  height: 65px;
+  line-height: 65px;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: wheat; 
+  cursor: pointer;
+
+}
+nav > ul > li > ul > li {
+	display: block;
+	height: 100%;
+	position: relative;
+	float: left;
+	width: 150px;
+	margin-left: -30px;
+	margin-top: 0px;
+	color: wheat;
+  background-color: #242449;
+  border-top-style: solid;
+  border-top-color: wheat; 
+}
+nav > ul > li:hover{
+  display: inline-block;
+  color: black;
+  overflow: visible;
+  display: block;
+  }
+nav > ul > li > ul > li:hover {
+	background-color: #240099
+}
+nav > ul > li:hover > ul{
+	display: block;
+    -moz-animation: flipInX .7s ease-in;
+    -webkit-animation: flipInX .7s ease-in ;
+    animation: flipInX .7s ease-in;
+}
+nav > ul > li > ul > li:hover > ul{
+	display:block;
+    -moz-animation: flipInY .7s ease-in ;
+    -webkit-animation: flipInY .7s ease-in ;
+    animation: flipInY .7s ease-in;
+}
