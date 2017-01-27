@@ -16,7 +16,7 @@ function navScroll(){
 			.css('position','absolute')
 			.css('backround-color','#242424')
 			.css('opacity','1')
-			.css('margin-top','30px')
+			.css('margin','70px 0 0 -20px')
 			}
 }
 window.onscroll = navScroll;
