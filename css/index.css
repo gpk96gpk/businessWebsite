@@ -1,3 +1,26 @@
+<<<<<<< HEAD
+html, body {
+	padding: 0;
+	margin: 0px 20px;
+}
+
+.profile {
+    width : 100vw;
+    height:50vw;
+    background-color: blue;
+}
+
+.products {
+    width : 100vw;
+    height:50vw;
+    background-color: red;
+}
+
+.header {
+    width: 100%;
+    opacity: 0.8;
+    background-color: #ffb366;
+=======
 /*Nav Bar*/
 nav {
 	width: 120%;
@@ -83,4 +106,5 @@ nav > ul > li > ul > li:hover > ul{
   height: 35vw;
   width: 100vw;
   background-color: yellow;
+>>>>>>> refs/remotes/origin/master
 }
