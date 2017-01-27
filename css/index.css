@@ -28,7 +28,10 @@ nav > ul > li {
   font-size: 14px;
   color: wheat; 
   cursor: pointer;
-
+}
+/*this pushes the div for the dropdown to the left*/
+nav ul li ul{
+  margin-left: -10px;
 }
 nav > ul > li > ul > li {
 	display: block;
@@ -48,9 +51,10 @@ nav > ul > li:hover{
   color: black;
   overflow: visible;
   display: block;
+  background-color: #200050;
   }
 nav > ul > li > ul > li:hover {
-	background-color: #240099
+	background-color: #240099;
 }
 nav > ul > li:hover > ul{
 	display: block;
@@ -63,4 +67,20 @@ nav > ul > li > ul > li:hover > ul{
     -moz-animation: flipInY .7s ease-in ;
     -webkit-animation: flipInY .7s ease-in ;
     animation: flipInY .7s ease-in;
+}
+/*end of Nav Bar*/
+.profile{
+  height: 35vw;
+  width: 100vw;
+  background-color: blue;
+}
+.products{
+  height: 35vw;
+  width: 100vw;
+  background-color: red;
+}
+.gallery {
+  height: 35vw;
+  width: 100vw;
+  background-color: yellow;
 }
