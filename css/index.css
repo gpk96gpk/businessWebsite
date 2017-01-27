@@ -1,36 +1,21 @@
-<<<<<<< HEAD
+
 html, body {
 	padding: 0;
-	margin: 0px 20px;
+	margin: 0px ;
+  overflow-x: hidden;
 }
 
-.profile {
-    width : 100vw;
-    height:50vw;
-    background-color: blue;
-}
-
-.products {
-    width : 100vw;
-    height:50vw;
-    background-color: red;
-}
-
-.header {
-    width: 100%;
-    opacity: 0.8;
-    background-color: #ffb366;
-=======
 /*Nav Bar*/
 nav {
-	width: 120%;
+	width: 110%;
 	list-style-type: none;
 	background-color: #242424;
 	list-style-type: none;
  	margin: -30px 0 0 -20px;
-  	padding: 0;
+  padding: 0;
 	position: absolute;
 	text-align: center;
+  z-index: 2;
 }
 nav > ul {
   list-style: none;
@@ -52,23 +37,6 @@ nav > ul > li {
   color: wheat; 
   cursor: pointer;
 }
-/*this pushes the div for the dropdown to the left*/
-nav ul li ul{
-  margin-left: -10px;
-}
-nav > ul > li > ul > li {
-	display: block;
-	height: 100%;
-	position: relative;
-	float: left;
-	width: 150px;
-	margin-left: -30px;
-	margin-top: 0px;
-	color: wheat;
-  background-color: #242449;
-  border-top-style: solid;
-  border-top-color: wheat; 
-}
 nav > ul > li:hover{
   display: inline-block;
   color: black;
@@ -76,35 +44,76 @@ nav > ul > li:hover{
   display: block;
   background-color: #200050;
   }
-nav > ul > li > ul > li:hover {
-	background-color: #240099;
-}
-nav > ul > li:hover > ul{
-	display: block;
-    -moz-animation: flipInX .7s ease-in;
-    -webkit-animation: flipInX .7s ease-in ;
-    animation: flipInX .7s ease-in;
-}
-nav > ul > li > ul > li:hover > ul{
-	display:block;
-    -moz-animation: flipInY .7s ease-in ;
-    -webkit-animation: flipInY .7s ease-in ;
-    animation: flipInY .7s ease-in;
-}
 /*end of Nav Bar*/
-.profile{
-  height: 35vw;
-  width: 100vw;
+.menuArea{
+  width:300vw;
+  height: 100vw;
+  display: block;
+  overflow-x: hidden;
+  padding-top: 35px;
+}
+.menuSec1{
   background-color: blue;
-}
-.products{
   height: 35vw;
-  width: 100vw;
+}
+.menuSec2{
   background-color: red;
-}
-.gallery {
   height: 35vw;
-  width: 100vw;
+}
+.menuSec3{
   background-color: yellow;
->>>>>>> refs/remotes/origin/master
+  height: 35vw;
+}
+.menuItem{
+  width: 28vw;
+  height: 29vw;
+  background-color: white;
+  display: inline-block;
+  position: relative;
+  left: 3vw;
+  top: 3vw;
+  margin-right: 3vw;
+  z-index: 1;
+}
+.menuImg{
+  width: 22vw;
+  height: 14vw;
+  background-color: yellowgreen;
+  left: 3vw;
+  position: relative;
+  top: 1vw;
+}
+.bottomOfMenu{
+  width: 28vw;
+  height: 12vw;
+  top: 17vw;
+  left: 0vw;
+  position: absolute;
+  background-color: gray;
+}
+.menuDescription{
+  width:5vw;
+}
+.menuDescription{
+  overflow: hidden;
+  height:7vw;
+  width: 28vw;
+  position: absolute;
+  padding: 1vw;
+}
+.menuButton{
+  background-color: red;
+  width:6vw;
+  height:3vw;
+  top: 8vw;
+  left: 20vw;
+  position: absolute;
+}
+.menuPricing{
+  background-color: blue;
+  width: 9vw;
+  height: 3vw;
+  top: 8vw;
+  left: 2vw;
+  position: absolute;
 }
