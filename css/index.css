@@ -1,11 +1,22 @@
+html, body {
+	padding: 0;
+	margin: 0px 20px;
+}
+
 .profile {
     width : 100vw;
     height:50vw;
     background-color: blue;
 }
 
-.products{
+.products {
     width : 100vw;
     height:50vw;
     background-color: red;
+}
+
+.header {
+    width: 100%;
+    opacity: 0.8;
+    background-color: #ffb366;
 }
