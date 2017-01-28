@@ -145,17 +145,15 @@ p.haven {
 #x19{
   left: 550px;
 }
-
-/*----HEADER END----*/
 /*Nav Bar*/
 nav {
 	width: 110%;
 	list-style-type: none;
 	background-color: #242424;
 	list-style-type: none;
-	position: absolute;
+	position: fixed;
 	text-align: center;
-  z-index: 2;
+  z-index: 3;
 }
 nav > ul {
   list-style: none;
@@ -184,7 +182,26 @@ nav > ul > li:hover{
   display: block;
   background-color: #200050;
   }
-/*end of Nav Bar*/
+/*SideBars*/
+.sidebar-right{
+ background: black url("../images/sidebars/beans.jpg")no-repeat top right fixed;
+ background-size: contain;
+ float: right;
+ width: 100px;
+ height: 800px;
+box-shadow: 2px 2px 10px 2px black;
+z-index: 3;
+}
+.sidebar-left{
+background: black url("../images/sidebars/beans.jpg") repeat-x top left fixed;
+ background-size: contain;
+float: left;
+height: 800px;
+ width: 100px;
+ box-shadow: 2px 2px 10px 2px black;
+z-index: 3;
+}
+
 .menuArea{
   width:300vw;
   height: 100vw;
