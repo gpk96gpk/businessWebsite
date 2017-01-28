@@ -14,14 +14,6 @@ color: limegreen;
 text-shadow: 1px 1px 10px darkgreen;
 box-shadow: 2px 2px 10px 2px black;
 margin: 65px 7% 0px 7%;
-
-
-}
-.header h1, p {
-  position: relative;
-  z-index: 2;
-  top: -190px;
-
 }
 span{
   animation: blink 1s infinite;
@@ -33,9 +25,15 @@ span{
 
 h1.coderscafe {
   font-size: 40px;
+  position: relative;
+  z-index: 2;
+  top: -190px
 }
 p.haven {
   font-size: 20px;
+  position: relative;
+  z-index: 2;
+  top: -190px
 }
 /*MATRIX*/
 #matx{
@@ -202,6 +200,9 @@ height: 3000px;
 z-index: 3;
 }
 
+/*Our Mission*/
+.ourMission {
+}
 .menuArea{
   width:300vw;
   height: 100vw;
