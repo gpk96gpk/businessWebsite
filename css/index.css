@@ -44,9 +44,12 @@ nav > ul > li:hover{
   display: block;
   background-color: #200050;
   }
+nav ul li a:hover{
+  text-decoration: none;
+}
 /*end of Nav Bar*/
 .menuArea{
-  width:300vw;
+  width:200vw;
   height: 100vw;
   display: block;
   overflow-x: hidden;
@@ -55,7 +58,26 @@ nav > ul > li:hover{
 .menuSec1{
   background-color: blue;
   height: 35vw;
+  transform: translate3d(0,0,0);
 }
+#myDIV {
+    animation: mymove 6s linear infinite;
+}
+#myDiv:hover{
+	animation: mymove;
+}
+#myDIV:not(:hover){
+	animation-play-state: paused;
+}
+
+/* Chrome, Safari, Opera */
+@keyframes mymove {
+    100% {transform: translateX(-100vw);}
+}
+/*.menuSec1(:active){
+  transition-duration: 10s;
+  transition: transform 10s;
+}*/
 .menuSec2{
   background-color: red;
   height: 35vw;
@@ -74,6 +96,7 @@ nav > ul > li:hover{
   top: 3vw;
   margin-right: 3vw;
   z-index: 1;
+  border-radius: 3vw;
 }
 .menuImg{
   width: 22vw;
@@ -89,7 +112,8 @@ nav > ul > li:hover{
   top: 17vw;
   left: 0vw;
   position: absolute;
-  background-color: gray;
+  background-color: #fffeee;
+  border-radius: 3vw;
 }
 .menuDescription{
   width:5vw;
