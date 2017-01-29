@@ -7,16 +7,17 @@ function navScroll(){
 			.css('backround-color','#242424')
 			/*.css('text-align','center')*/
 			.css('opacity','.6')
-			.css('z-index','2')
-			.css('margin-top','0px')
+			.css('z-index','3')
+			.css('margin-top','0')
 	} else{
 		$('nav')
-			.css('width','120%')
-			.css('z-index','2')
+			.css('width','100vw')
+			.css('z-index','3')
 			.css('position','absolute')
 			.css('backround-color','#242424')
 			.css('opacity','1')
-			.css('margin','70px 0 0 -20px')
+			.css('margin','0')
+			.css('top','7.5vw')
 			}
 }
 window.onscroll = navScroll;
