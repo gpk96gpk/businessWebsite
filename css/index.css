@@ -13,7 +13,7 @@ font-family: monospace;
 color: limegreen;
 text-shadow: 1px 1px 10px darkgreen;
 box-shadow: 2px 2px 10px 2px black;
-margin: 65px 7% 0px 7%;
+margin: 140px 7% 0px 7%;
 }
 span{
   animation: blink 1s infinite;
@@ -144,6 +144,19 @@ p.haven {
   left: 550px;
 }
 /*Nav Bar*/
+.upperNav {
+  height: 55px;
+  background-color: gray;
+  font-family: Courier;
+}
+.title {
+    font-size: 25px;
+    text-align: center;
+}
+.title, .subtitle{
+  margin-right: 155px ;
+  margin-bottom: 0px;
+}
 nav {
 	width: 110%;
 	list-style-type: none;
@@ -155,8 +168,6 @@ nav {
 }
 nav > ul {
   list-style: none;
-  padding: 0px 7%;
-  margin: 0;
   display: block;
   background: #ddd;
 }
@@ -172,6 +183,7 @@ nav > ul > li {
   font-size: 14px;
   color: wheat; 
   cursor: pointer;
+  margin-left: 100px;
 }
 nav > ul > li:hover{
   display: inline-block;
@@ -198,6 +210,13 @@ height: 3000px;
  width: 100px;
  box-shadow: 2px 2px 10px 2px black;
 z-index: 3;
+}
+.aboutus {
+  text-align: center;
+  font-family: courier;
+  font-weight: bold;
+  text-shadow: 1px 1px 10px lime;
+  margin-top: 100px;
 }
 /*Cafe Pic*/
 .cafePic {

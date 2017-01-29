@@ -1,4 +1,4 @@
-var navPosition = $('nav').offset().top;
+/*var navPosition = $('nav').offset().top;
 function navScroll(){
 	if ($(window).scrollTop()>=navPosition){
 		$('nav')
@@ -6,7 +6,7 @@ function navScroll(){
 			.css('top','0')
 			.css('backround-color','#242424')
 			/*.css('text-align','center')*/
-			.css('opacity','.6')
+/*			.css('opacity','.6')
 			.css('z-index','2')
 			.css('margin-top','0px')
 	} else{
@@ -18,5 +18,16 @@ function navScroll(){
 			.css('opacity','1')
 			.css('margin-top','30px')
 			}
-}
-window.onscroll = navScroll;
+}*/
+
+$(window).scroll(function(){
+  if($(window).scrollTop() > 100){
+      $('.title').fadeIn("slow");
+  }
+});
+$(window).scroll(function(){
+  if($(window).scrollTop() < 100){
+      $(".title").fadeOut("fast");
+  }
+});
+
