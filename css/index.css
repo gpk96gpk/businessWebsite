@@ -212,6 +212,10 @@ nav>ul>li:hover {
     padding: 0.5vw;
 }
 
+.namebutton {
+    background-color: black;
+}
+
 .slamvideo {
     background-color: darkcyan;
     height: 30vw;
