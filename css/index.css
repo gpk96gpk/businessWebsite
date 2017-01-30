@@ -1,125 +1,260 @@
-
-html, body {
-	padding: 0;
-	margin: 0px ;
-  overflow-x: hidden;
+html,
+body {
+    padding: 0;
+    margin: 0px;
+    overflow-x: hidden;
 }
+
 
 /*Nav Bar*/
+
 nav {
-	width: 110%;
-	list-style-type: none;
-	background-color: #242424;
-	list-style-type: none;
- 	margin: -30px 0 0 -20px;
-  padding: 0;
-	position: absolute;
-	text-align: center;
-  z-index: 2;
-}
-nav > ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: block;
-  background: #ddd;
-}
-nav > ul > li {
-  background-color: #242424;
-  overflow: hidden;
-  float: left;
-  width: 150px;
-  height: 65px;
-  line-height: 65px;
-  position: relative;
-  text-transform: uppercase;
-  font-size: 14px;
-  color: wheat; 
-  cursor: pointer;
-}
-nav > ul > li:hover{
-  display: inline-block;
-  color: black;
-  overflow: visible;
-  display: block;
-  background-color: #200050;
-  }
-/*end of Nav Bar*/
-.menuArea{
-  width:300vw;
-  height: 100vw;
-  display: block;
-  overflow-x: hidden;
-  padding-top: 35px;
-}
-.menuSec1{
-  background-color: blue;
-  height: 35vw;
-}
-.menuSec2{
-  background-color: red;
-  height: 35vw;
-}
-.menuSec3{
-  background-color: yellow;
-  height: 35vw;
-}
-.menuItem{
-  width: 28vw;
-  height: 29vw;
-  background-color: white;
-  display: inline-block;
-  position: relative;
-  left: 3vw;
-  top: 3vw;
-  margin-right: 3vw;
-  z-index: 1;
-}
-.menuImg{
-  width: 22vw;
-  height: 14vw;
-  background-color: yellowgreen;
-  left: 3vw;
-  position: relative;
-  top: 1vw;
-}
-.bottomOfMenu{
-  width: 28vw;
-  height: 12vw;
-  top: 17vw;
-  left: 0vw;
-  position: absolute;
-  background-color: gray;
-}
-.menuDescription{
-  width:5vw;
-}
-.menuDescription{
-  overflow: hidden;
-  height:7vw;
-  width: 28vw;
-  position: absolute;
-  padding: 1vw;
-}
-.menuButton{
-  background-color: red;
-  width:6vw;
-  height:3vw;
-  top: 8vw;
-  left: 20vw;
-  position: absolute;
-}
-.menuPricing{
-  background-color: blue;
-  width: 9vw;
-  height: 3vw;
-  top: 8vw;
-  left: 2vw;
-  position: absolute;
+    width: 110%;
+    list-style-type: none;
+    background-color: #242424;
+    list-style-type: none;
+    margin: -30px 0 0 -20px;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    z-index: 2;
 }
 
+nav>ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+    background: #ddd;
+}
+
+nav>ul>li {
+    background-color: #242424;
+    overflow: hidden;
+    float: left;
+    width: 150px;
+    height: 65px;
+    line-height: 65px;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: wheat;
+    cursor: pointer;
+}
+
+nav>ul>li:hover {
+    display: inline-block;
+    color: black;
+    overflow: visible;
+    display: block;
+    background-color: #200050;
+}
+
+
+/*end of Nav Bar*/
+
+.menuArea {
+    width: 300vw;
+    height: 100vw;
+    display: block;
+    overflow-x: hidden;
+    padding-top: 35px;
+}
+
+.menuSec1 {
+    background-color: blue;
+    height: 35vw;
+}
+
+.menuSec2 {
+    background-color: red;
+    height: 35vw;
+}
+
+.menuSec3 {
+    background-color: yellow;
+    height: 35vw;
+}
+
+.menuItem {
+    width: 28vw;
+    height: 29vw;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    left: 3vw;
+    top: 3vw;
+    margin-right: 3vw;
+    z-index: 1;
+}
+
+.menuImg {
+    width: 22vw;
+    height: 14vw;
+    background-color: yellowgreen;
+    left: 3vw;
+    position: relative;
+    top: 1vw;
+}
+
+.bottomOfMenu {
+    width: 28vw;
+    height: 12vw;
+    top: 17vw;
+    left: 0vw;
+    position: absolute;
+    background-color: gray;
+}
+
+.menuDescription {
+    width: 5vw;
+}
+
+.menuDescription {
+    overflow: hidden;
+    height: 7vw;
+    width: 28vw;
+    position: absolute;
+    padding: 1vw;
+}
+
+.menuButton {
+    background-color: red;
+    width: 6vw;
+    height: 3vw;
+    top: 8vw;
+    left: 20vw;
+    position: absolute;
+}
+
+.menuPricing {
+    background-color: blue;
+    width: 9vw;
+    height: 3vw;
+    top: 8vw;
+    left: 2vw;
+    position: absolute;
+}
+
+
 /*//////////////Jose//////////////*/
-.Jose{
-  background-color: orangered;
-  height: 40vw;
+
+.Jose {
+    background-color: orangered;
+    height: 80vw;
+    display: block;
+}
+
+.specialevent_background {
+    background-image: url("../images/Jose/coffeebackground.jpg");
+    background-size: 100%;
+    height: 40vw;
+}
+
+
+/*poetryslam add*/
+
+.specialevent {
+    /*background-color: rgba(255, 255, 255, 0.4);*/
+    height: 39vw;
+    width: 90vw;
+    position: relative;
+    display: inline-block;
+    top: 0.5vw;
+    left: 4vw;
+    z-index: 1;
+}
+
+.slamPoster {
+    background-image: url("../images/Jose/Theslam.jpg");
+    background-size: 100%;
+    height: 30vw;
+    width: 20vw;
+    position: absolute;
+    display: inline-block;
+    top: 4vw;
+    left: 4vw;
+}
+
+.slamText {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 30vw;
+    width: 18vw;
+    position: absolute;
+    display: inline-block;
+    top: 4vw;
+    left: 24.5vw;
+}
+
+.eventinfo {
+    background-image: url("../images/Jose/woodbackground.jpg");
+    background-size: 20vw 20vw;
+    background-repeat: no-repeat;
+    position: absolute;
+    color: whitesmoke;
+    height: 20vw;
+    width: 17vw;
+    top: 0.5vw;
+    left: 0.5vw;
+    padding: 1vw;
+    overflow: scroll;
+}
+
+.subscribe {
+    background-image: url("../images/Jose/woodbackground.jpg");
+    background-size: 100%;
+    position: absolute;
+    color: whitesmoke;
+    height: 8.5vw;
+    width: 17vw;
+    top: 21vw;
+    left: 0.5vw;
+    padding: 0.5vw;
+}
+
+.namebutton {
+    background-color: black;
+}
+
+.slamvideo {
+    background-color: darkcyan;
+    height: 30vw;
+    width: 30vw;
+    position: absolute;
+    display: inline-block;
+    top: 4vw;
+    left: 55vw;
+}
+
+
+/*end poetryslam add*/
+
+
+/*contact information and google map*/
+
+.contactArea {
+    background-image: url("../images/Jose/woodbackground.jpg");
+    background-size: 100%;
+    position: relative;
+    height: 40vw;
+}
+
+.googleMap {
+    background-color: white;
+    position: absolute;
+    height: 35vw;
+    width: 40vw;
+    top: 2.5vw;
+    left: 7vw;
+}
+
+.contactText {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    color: whitesmoke;
+    height: 17vw;
+    width: 30vw;
+    top: 5vw;
+    left: 55vw;
+    padding: 1vw;
 }
