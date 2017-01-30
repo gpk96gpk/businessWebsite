@@ -196,6 +196,8 @@ nav > ul > li:hover{
   }
   nav > ul > li > a {
     color: lime;
+    font-family: courier;
+    font-size: 15px;
   }
   nav > ul > li > a:hover{
     color: lime;
