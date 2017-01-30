@@ -192,7 +192,14 @@ nav > ul > li:hover{
   color: black;
   overflow: visible;
   display: block;
-  background-color: #200050;
+  background-color: darkgreen;
+  }
+  nav > ul > li > a {
+    color: lime;
+  }
+  nav > ul > li > a:hover{
+    color: lime;
+    text-shadow: 1px 1px 5px black;
   }
 /*SideBars*/
 .sidebar-right{
