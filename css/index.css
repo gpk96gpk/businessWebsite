@@ -184,6 +184,7 @@ nav>ul>li:hover {
     display: inline-block;
     top: 4vw;
     left: 24.5vw;
+    
 }
 
 .eventinfo {
@@ -217,7 +218,7 @@ nav>ul>li:hover {
 }
 
 .slamvideo {
-    background-color: darkcyan;
+    /*background-color: darkcyan;*/
     height: 30vw;
     width: 30vw;
     position: absolute;
@@ -252,9 +253,26 @@ nav>ul>li:hover {
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     color: whitesmoke;
+    /*overflow: scroll;*/
     height: 17vw;
     width: 30vw;
     top: 5vw;
     left: 55vw;
+    padding: 1vw;
+}
+
+.phonenumber {
+    position: relative;
+}
+
+.number {
+    padding: 1vw;
+}
+
+.email {
+    position: relative;
+}
+
+.gmail{
     padding: 1vw;
 }
