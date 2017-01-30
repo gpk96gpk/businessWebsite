@@ -233,6 +233,28 @@ nav>ul>li:hover {
 /*contact information and google map*/
 
 .contactArea {
-    background-color: green;
+    background-image: url("../images/Jose/woodbackground.jpg");
+    background-size: 100%;
+    position: relative;
     height: 40vw;
+}
+
+.googleMap {
+    background-color: white;
+    position: absolute;
+    height: 35vw;
+    width: 40vw;
+    top: 2.5vw;
+    left: 7vw;
+}
+
+.contactText {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    color: whitesmoke;
+    height: 17vw;
+    width: 30vw;
+    top: 5vw;
+    left: 55vw;
+    padding: 1vw;
 }
