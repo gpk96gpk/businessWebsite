@@ -4,23 +4,172 @@ html, body {
 	margin: 0px ;
   overflow-x: hidden;
 }
+/*----HEADER----*/
+.header {
+text-align: center;
+background: gray url("../images/Header/headerimg1.jpg") no-repeat center center;
+height: 626px;
+font-family: monospace;
+color: limegreen;
+text-shadow: 1px 1px 10px darkgreen;
+box-shadow: 2px 2px 10px 2px black;
+margin: 140px 7% 0px 7%;
+}
+span{
+  animation: blink 1s infinite;
+  color: lime;
+}
+@keyframes blink{
+  to{opacity: .0;}
+}
 
+h1.coderscafe {
+  font-size: 40px;
+  position: relative;
+  z-index: 2;
+  top: -190px
+}
+p.haven {
+  font-size: 20px;
+  position: relative;
+  z-index: 2;
+  top: -190px
+}
+/*MATRIX*/
+#matx{
+  background: rgb(15,5,15);  
+  color: rgba(0, 255, 0, .7);   
+  height: 265px; 
+  max-width: 430px;
+  min-width: 344px;
+  overflow: hidden;  
+  text-shadow: rgba(255, 255, 255, .8) 0px 0px 4px;  
+  position: relative;
+  z-index: 1;
+  border-radius: 10px;
+  top: 18px;
+  margin-right: 333px;
+  margin-left: 32%
+}
+@-webkit-keyframes fading{ 
+  0% { opacity: 1; }  
+  100% { opacity: 0; }  
+} 
+@-webkit-keyframes falling{ 
+  from {top: -250px;}  
+  to {top: 388px;}  
+} 
+#matx div{ 
+  position: absolute;  
+  top: 0;  
+  text-transform: lowercase;  
+-webkit-transform:rotate(90deg); 
+-webkit-animation-name: falling, fading; 
+-webkit-animation-timing-function: ease-out; 
+-webkit-animation-iteration-count: infinite; 
+-webkit-animation-direction: normal; 
+} 
+/*Speed*/
+.t1{ 
+-webkit-animation-duration: 4s; 
+} 
+.t2{ 
+-webkit-animation-duration: 6s; 
+} 
+.t3{ 
+-webkit-animation-duration: 8s; 
+} 
+.t4{ 
+-webkit-animation-duration: 10s; 
+} 
+.t5{ 
+-webkit-animation-duration: 13s; 
+} 
+/*position*/
+#x1{
+  left: -90px;
+}
+#x2{
+  left: 25px;  
+}
+#x3{
+  left: 60px;
+}
+#x4{
+  left: 80px;  
+}
+#x5{
+  left: 110px;
+}
+#x6{
+  left: 140px; 
+}
+#x7{
+  left: -150px;  
+}
+#x8{
+  left: 185px;  
+}
+#x9{
+  left: 195px;  
+}
+#x10{
+  left: 250px; 
+}
+#x11{
+  left: 290px;
+}
+#x12{
+  left: 310px;
+}
+#x13{
+  left: 350px;
+}
+#x14{
+  left: 390px;
+}
+#x15{
+  left: 430px;
+}
+#x16{
+  left: 470px;
+}
+#x17{
+  left: 490px;
+}
+#x18{
+  left: 520px;
+}
+#x19{
+  left: 550px;
+}
 /*Nav Bar*/
+.upperNav {
+  height: 55px;
+  background-color: gray;
+  font-family: Courier;
+}
+.title {
+    font-size: 25px;
+    text-align: center;
+}
+.title, .subtitle{
+  margin-right: 155px ;
+  margin-bottom: 0px;
+  text-shadow: .5px .5px 15px lime;
+}
 nav {
 	width: 110%;
 	list-style-type: none;
 	background-color: #242424;
 	list-style-type: none;
- 	margin: -30px 0 0 -20px;
-  padding: 0;
-	position: absolute;
+	position: fixed;
 	text-align: center;
-  z-index: 2;
+  z-index: 3;
+  box-shadow: 2px 2px 10px 2px black;
 }
 nav > ul {
   list-style: none;
-  padding: 0;
-  margin: 0;
   display: block;
   background: #ddd;
 }
@@ -36,15 +185,87 @@ nav > ul > li {
   font-size: 14px;
   color: wheat; 
   cursor: pointer;
+  margin-left: 100px;
 }
 nav > ul > li:hover{
   display: inline-block;
   color: black;
   overflow: visible;
   display: block;
-  background-color: #200050;
+  background-color: darkgreen;
   }
-/*end of Nav Bar*/
+  nav > ul > li > a {
+    color: lime;
+    font-family: courier;
+    font-size: 15px;
+  }
+  nav > ul > li > a:hover{
+    color: lime;
+    text-shadow: 1px 1px 5px black;
+  }
+/*SideBars*/
+.sidebar-right{
+ background: black url("../images/sidebars/beans.jpg")no-repeat top right fixed;
+ background-size: contain;
+ float: right;
+ width: 100px;
+ height: 3648px;
+box-shadow: 2px 2px 10px 2px black;
+z-index: 3;
+}
+.sidebar-left{
+background: black url("../images/sidebars/beans.jpg") repeat-x top left fixed;
+ background-size: contain;
+float: left;
+height: 3648px;
+ width: 100px;
+ box-shadow: 2px 2px 10px 2px black;
+z-index: 3;
+}
+#aboutus {
+  text-align: center;
+  font-family: courier;
+  font-weight: bold;
+  text-shadow: 1px 1px 10px lime;
+  margin-top: 100px;
+}
+/*Cafe Pic*/
+#cafePic {
+  background: url("../images/cafepic.jpeg") no-repeat center center;
+  background-size: contain;
+  width: 33%;
+  height: 300px;
+  margin: 60px 33% 0px 33%;
+}
+/*Our Mission*/
+.ourMission {
+margin: 35px 30% 0px 30%;
+font-family: courier;
+text-align: center;
+max-width: 40%;
+}
+p.ourMission {
+  color: red;
+}
+.coffeePic {
+  background: url("../images/coffeepic.jpeg") no-repeat center center;
+  background-size: contain;
+  width: 33%;
+  height: 300px;
+  margin: 60px 33% 0px 33%;
+}
+/*Our Coffee*/
+.ourCoffee {
+margin: 35px 30% 0px 30%;
+font-family: courier;
+text-align: center;
+max-width: 40%;
+}
+p.ourCoffee {
+  color: red;
+}
+
+
 .menuArea{
   width:300vw;
   height: 100vw;
