@@ -6,11 +6,31 @@ function initMap() {
         mapTypeID: 'roadmap'
     });
 
-
+    var contentString = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading">CodeCoffee</h1>'+
+            '<div id="bodyContent">'+
+            '<p><b>Coffee</b>, is what we do ' +
+            'and we do it well! Come to code, chill or game.</p>'+
+            'We have live music and special events all the time.' +
+            '<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
+            'https://en.wikipedia.org/w/index.php?title=Uluru</a> '+
+            '(last visited June 22, 2009).</p>'+
+            '</div>'+
+            '</div>';
+        
+        var infowindow = new google.maps.InfoWindow({
+            content: contentString
+        })
 
     var marker = new google.maps.Marker({
         position: uluru,
-        map: map
+        map: map,
+        title: 'CodeCoffee (Rotterdam)'
+    });
+    marker.addListener('click', function() {
+        infowindow.open(map, marker);
     });
 }
 
