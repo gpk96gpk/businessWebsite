@@ -14,9 +14,7 @@ function initMap() {
             '<p><b>Coffee</b>, is what we do ' +
             'and we do it well! Come to code, chill or game.</p>'+
             'We have live music and special events all the time.' +
-            '<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
-            'https://en.wikipedia.org/w/index.php?title=Uluru</a> '+
-            '(last visited June 22, 2009).</p>'+
+            '<p>Visit us at, <a href="https://www.codecoffee.com//</a> </p>'+
             '</div>'+
             '</div>';
         
