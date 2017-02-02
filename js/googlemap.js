@@ -6,6 +6,7 @@ function initMap() {
         mapTypeID: 'roadmap'
     });
 
+//contentstring holds the text that will be displayed in the infowindow.
     var contentString = '<div id="content">'+
             '<div id="siteNotice">'+
             '</div>'+
@@ -17,7 +18,8 @@ function initMap() {
             '<p>Visit us at, <a href="https://www.codecoffee.com//</a> </p>'+
             '</div>'+
             '</div>';
-        
+
+//This creates the content 
         var infowindow = new google.maps.InfoWindow({
             content: contentString
         })
@@ -32,6 +34,5 @@ function initMap() {
     });
 }
 
-//add an info window. look for it at
-//infowindows at developers.google.com
+
 
